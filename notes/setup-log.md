@@ -30,6 +30,9 @@
 ## What I saw
 Kali boots to the Xfce login screen and desktop.
 
+<img width="2554" height="1672" alt="image" src="https://github.com/user-attachments/assets/e5aff719-38d0-4847-8ac5-3552d04ff48d" />
+
+
 ## Problems and fixes
 
 ### 1. Black screen with a blinking cursor in the installer
@@ -44,22 +47,11 @@ Kali boots to the Xfce login screen and desktop.
 - Kali's docs list pre-made VMs for VMware, VirtualBox and Hyper-V, not UTM, so I used the ISO route.
 - **Lesson:** read the section name on a download page, and confirm a download option exists on the official site before planning around it.
 
-### 3. Forgotten password
-- **Symptom:** couldn't log in after the first boot.
-- **Fix:** (describe exactly what you did, for example: booted into GRUB recovery mode, dropped to a root shell, ran `mount -o remount,rw /`, then `passwd <username>`.)
-- **Lesson:** anyone with console access to a Linux VM can reset a password this way, which is why physical access matters in security. I stored the new password in a password manager.
-
-## How to prevent or detect it
-Not applicable yet. This entry is infrastructure setup, with no attack involved. Later write-ups will include the defender's view.
-
 ## Commands I used or looked up
 
 | Command | What it does |
 |---|---|
 | `shasum -a 256 <file>` | Verifies a download's checksum (run on the Mac) |
-| `sudo apt update && sudo apt full-upgrade -y` | Refreshes the package list and installs updates |
-| `mount -o remount,rw /` | Makes the root filesystem writable in recovery mode |
-| `passwd <user>` | Changes a user's password |
 
 ## Lessons learned
 - Troubleshooting is a big part of the lab, so writing down what broke is as useful as writing down what worked.
