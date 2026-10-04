@@ -67,3 +67,12 @@ Get a working Kali Linux VM on Apple Silicon to use as the attacker machine in t
 - Update Kali and clone it as `kali-clean`.
 - Build the Ubuntu Server target VM with Docker and Juice Shop.
 - Set up the isolated host-only network.
+
+## Repo structure
+
+| Folder | What's in it |
+|---|---|
+| `notes/` | Numbered write-ups, one per exercise, plus a blank template |
+| `screenshots/` | Images used in the write-ups |
+| `diagrams/` | Network diagrams of the lab |
+| `configs/` | Sanitised config files and detection rules (no passwords or tokens) |
