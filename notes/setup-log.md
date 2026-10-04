@@ -65,5 +65,5 @@ Kali boots to the Xfce login screen and desktop.
 - [ ] Set up the isolated host-only network
 
 - Completed shut down of the sudo apt update, and made a Kali linux clone that will serve as my rescue copy.
-<img width="1564" height="1684" alt="image" src="https://github.com/user-attachments/assets/d53cb6e4-ae12-41f4-8402-5058e404e999" />
+<img width="1564" height="1684" alt="image" src="https://github.com/user-attachments/assets/335d622c-0f00-42a3-a45b-05f9d6b52633" />
 
