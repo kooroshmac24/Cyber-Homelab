@@ -59,7 +59,11 @@ Kali boots to the Xfce login screen and desktop.
 - Check the details of a download (architecture, section) before spending time on it.
 
 ## Still to do
-- [ ] Update Kali: `sudo apt update && sudo apt full-upgrade -y`
-- [ ] Shut down and clone the VM as `kali-clean` (rescue copy)
+- [x] Update Kali: `sudo apt update && sudo apt full-upgrade -y`
+- [x] Shut down and clone the VM as `kali-clean` (rescue copy)
 - [ ] Build the Ubuntu Server target VM
 - [ ] Set up the isolated host-only network
+
+- Completed shut down of the sudo apt update, and made a Kali linux clone that will serve as my rescue copy.
+<img width="1564" height="1684" alt="image" src="https://github.com/user-attachments/assets/d53cb6e4-ae12-41f4-8402-5058e404e999" />
+
