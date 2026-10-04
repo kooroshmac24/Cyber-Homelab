@@ -8,3 +8,8 @@
 
 ## What I did
 - Created the GitHub repo
+- ## Lab machines
+
+| VM | Role | OS | IP address |
+|----|------|----|------------|
+| kali | Attacker | Kali Linux (ARM64) | TBD |
