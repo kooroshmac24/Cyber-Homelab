@@ -21,7 +21,7 @@ Build a small, isolated lab where I can attack machines I own, see what those at
 
 ## Write-ups
 - [00 - Setup log: Kali attacker VM](notes/00-setup-log.md)
-
+- [01 - Ubuntu Server target VM](notes/01-ubuntu-target.md)
 ## Status
 - [x] Kali VM installed
 - [ ] Ubuntu Server target with Docker and Juice Shop
