@@ -24,7 +24,7 @@ Build a small, isolated lab where I can attack machines I own, see what those at
 - [01 - Ubuntu Server target VM](notes/01-ubuntu-target.md)
 ## Status
 - [x] Kali VM installed
-- [ ] Ubuntu Server target with Docker and Juice Shop
+- [x] Ubuntu Server target with Docker and Juice Shop
 - [ ] Isolated host-only network
 - [ ] First attack and write-up
 - [ ] Wazuh (defender)
