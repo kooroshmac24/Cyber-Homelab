@@ -17,7 +17,7 @@ Build a small, isolated lab where I can attack machines I own, see what those at
 
 | VM | Role | OS | IP address |
 |----|------|----|------------|
-| kali | Attacker | Kali Linux (ARM64) | TBD |
+| kali | Attacker | Kali Linux (ARM64) | 192.168.128.2 |
 
 ## Write-ups
 - [00 - Setup log: Kali attacker VM](notes/00-setup-log.md)
@@ -25,8 +25,8 @@ Build a small, isolated lab where I can attack machines I own, see what those at
 ## Status
 - [x] Kali VM installed
 - [x] Ubuntu Server target with Docker and Juice Shop
-- [ ] Isolated host-only network
-- [ ] First attack and write-up
+- [x] Isolated host-only network
+- [x] First attack and write-up
 - [ ] Wazuh (defender)
 
 ## Repo structure
