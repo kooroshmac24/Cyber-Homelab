@@ -52,7 +52,6 @@ Build a small, isolated lab where I can attack machines I own, see what those at
 | Folder | What's in it |
 |--------|-------------|
 | `notes/` | Numbered write-ups, one per exercise, plus a blank template |
-| `screenshots/` | Images used in the write-ups |
 | `diagrams/` | Network diagrams of the lab |
 | `configs/` | Sanitised config files and detection rules (no passwords or tokens) |
 
