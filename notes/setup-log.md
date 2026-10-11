@@ -58,12 +58,12 @@ Kali boots to the Xfce login screen and desktop.
 - Official documentation beat generic tutorials for the black screen problem.
 - Check the details of a download (architecture, section) before spending time on it.
 
-## Still to do
+## Checklist
 - [x] Update Kali: `sudo apt update && sudo apt full-upgrade -y`
 - [x] Shut down and clone the VM as `kali-clean` (rescue copy)
-- [ ] Build the Ubuntu Server target VM
-- [ ] Set up the isolated host-only network
+- [x] Build the Ubuntu Server target VM — see [01-ubuntu-target.md](01-ubuntu-target.md)
+- [x] Set up the isolated host-only network — both VMs on Host Only, verified with `ping google.com` (fails) and cross-VM ping (works)
+- [x] First attacks on Juice Shop — see [02-juice-shop-attacks.md](02-juice-shop-attacks.md)
 
-- Completed shut down of the sudo apt update, and made a Kali linux clone that will serve as my rescue copy.
+Completed shut down of the sudo apt update, and made a Kali linux clone that will serve as my rescue copy.
 <img width="1564" height="1684" alt="image" src="https://github.com/user-attachments/assets/335d622c-0f00-42a3-a45b-05f9d6b52633" />
-
