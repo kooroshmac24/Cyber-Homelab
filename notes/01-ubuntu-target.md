@@ -44,7 +44,7 @@ Ubuntu boots to a text login prompt. No graphical desktop, which is normal for a
 - **Lesson:** in Linux, `$` before a word means "the value of this variable." Use `$USER` for your username, or type the username without a `$`.
 
 ## How to prevent or detect it
-Not applicable yet. This is infrastructure setup. Attack and detection write-ups start in Phase 4.
+Not applicable yet. This is infrastructure setup. Attack and detection write-ups start in [02-juice-shop-attacks.md](02-juice-shop-attacks.md).
 
 ## Commands I used or looked up
 
@@ -63,7 +63,7 @@ Not applicable yet. This is infrastructure setup. Attack and detection write-ups
 - Downloading a Docker image and running it are separate steps. Downloading on a safe network and running on an isolated one is a good habit.
 - Cloning the VM after setup but before running anything vulnerable gives a clean restore point.
 
-## Still to do
-- [ ] Switch both VMs to Host Only networking (Phase 3)
-- [ ] Start Juice Shop on the isolated network
-- [ ] Begin first attack from Kali
+## Checklist
+- [x] Switch both VMs to Host Only networking (Phase 3)
+- [x] Start Juice Shop on the isolated network
+- [x] First attacks from Kali — Nmap, SQL injection, XSS — see [02-juice-shop-attacks.md](02-juice-shop-attacks.md)
